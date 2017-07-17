@@ -1,0 +1,159 @@
+@media screen and (max-width: 1199px) {
+  .wrapper .info-block .info .item h2:before {
+    left: 3%; }
+  .wrapper .info-block .contract h2 {
+    padding-left: 4%; }
+  .wrapper .info-block .contract span {
+    padding-left: 8%; }
+  .wrapper .steps .list .first-line .item:nth-child(3) {
+    width: 23%; } }
+
+@media screen and (max-width: 991px) {
+  .wrapper .price-block .container table tr td a {
+    padding: 12px 25px 11px; }
+  .wrapper .order-call .man {
+    display: none; }
+  .wrapper .steps .list {
+    font: 0;
+    text-align: center;
+    overflow: hidden; }
+  .wrapper .steps .list .second-line,
+  .wrapper .steps .list .first-line {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-top: 5px; }
+  .wrapper .steps .list .first-line {
+    border-bottom: none;
+    float: right; }
+  .wrapper .steps .list .second-line {
+    border-bottom: none;
+    float: left; }
+  .wrapper .steps .list .first-line .item {
+    display: block;
+    min-height: 150px;
+    padding-top: 26px;
+    width: 100% !important;
+    margin: 0 auto !important; }
+  .wrapper .steps .list .second-line .item {
+    display: block;
+    min-height: 150px;
+    width: 100% !important;
+    margin: 0 auto !important; }
+  .wrapper .steps .list .first-line .item:after,
+  .wrapper .steps .list .second-line .item:after {
+    display: none; }
+  .wrapper .steps .list .first-line .item p,
+  .wrapper .steps .list .second-line .item p {
+    height: auto; }
+  .wrapper .steps .list .first-line .item span {
+    top: -16px; }
+  .wrapper .main .gleb {
+    bottom: 0; }
+  .wrapper .main h1 {
+    font-size: 35px;
+    padding-top: 20px; }
+    .wrapper .main h1 b {
+      font-size: 35px; }
+  .wrapper .main .order {
+    margin-top: 30px; }
+  .wrapper .main .info {
+    margin-top: 47px; }
+  .wrapper .main .quote {
+    margin-top: 20px; } }
+
+@media screen and (max-width: 600px) {
+  .wrapper .main .order {
+    width: 100%;
+    text-align: center; }
+  .wrapper .main .info {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px; }
+  .wrapper .main .gleb {
+    display: none; }
+  .wrapper .main .quote {
+    max-width: auto; }
+  .wrapper .advantages .text {
+    padding: 20px 0 0; }
+  .wrapper .clients .owl-carousel .owl-prev {
+    left: 0; }
+  .wrapper .clients .owl-carousel .owl-next {
+    right: 0; }
+  .modal-call .fancybox-close-small {
+    top: 0;
+    right: 0; } }
+
+@media screen and (max-width: 480px) {
+  .header .logo {
+    width: 211px;
+    display: block;
+    margin: 0 auto; }
+  .header .phone {
+    float: none;
+    width: 195px;
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+  .wrapper .main h1 {
+    font-size: 25px; }
+  .wrapper .main span {
+    font-size: 16px; }
+  .wrapper .main h1 b {
+    font-size: 25px; }
+  .wrapper .main .order {
+    padding-left: 0; }
+  .wrapper .main .info {
+    margin-left: 0; }
+  .wrapper .info-block .contract h2 {
+    padding-left: 0;
+    text-align: center; }
+  .wrapper .price-block .container .order-all {
+    font-size: 17px; }
+  .wrapper .order-call .form-box form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px; }
+  .wrapper .order-call .form-box form textarea {
+    margin: 20px 0 27px; }
+  .wrapper .order-call .form-box form .btn {
+    font-size: 12px; }
+  .wrapper .faq .accordion .link {
+    padding: 14px 35px 17px;
+    position: relative;
+    font-size: 13px; }
+  .wrapper .faq .accordion .link:before {
+    margin-left: 10px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 10px);
+    margin-top: 0; }
+  .wrapper .faq .accordion .link:after {
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 6px);
+    margin: 0 15px 0 0; }
+  .wrapper .faq .accordion .item {
+    z-index: 15; }
+  footer .logo {
+    width: 211px;
+    display: block;
+    margin: 30px auto 0; }
+  footer .phone-box {
+    float: none;
+    text-align: center;
+    display: block;
+    padding-bottom: 50px; }
+  footer .scroll-top {
+    margin-top: 0; }
+  .wrapper .price-block .container table tr td {
+    display: block;
+    border: none !important; }
+  .modal-call form input[type="text"] {
+    width: 100%;
+    margin-top: 10px; }
+  .modal-call {
+    width: 260px; }
+  .modal-call form .btn {
+    white-space: unset; } }

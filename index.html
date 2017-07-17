@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/jquery.fancybox.css" rel="stylesheet"> 
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/media.css" rel="stylesheet">
+</head>
+<body>
+
+
+<header class="header" id="top">
+  <div class="container">    
+    <a href="#" class="logo"><img src="img/logo.png" alt="logo">Regdogovor.ru</a>
+    <div class="phone">
+      <span><b>8 (912)</b> 888-22-33</span>
+      <a data-fancybox data-src="#hidden-content" href="javascript:;" class="call">Заказать звонок</a>
+    </div>    
+  </div>
+</header>
+
+  
+<div class="wrapper">
+  <section class="main container">    
+    <h1><b>Регистрация договоров аренды</b> в Санкт-Петербурге и Ленинградской области</h1>   
+    <span>По доступной цене со сроком от 4 дней</span>  
+    <a data-fancybox data-src="#hidden-content" href="javascript:;" class="order">Заказать регистрацию договора</a>  
+    <a href="#faq" class="info scrollto">Информация об услуге</a>
+    <div class="quote pull-right">
+      <span>— Тольский Глеб</span>
+     <i>Член союза предпринимателей Санкт-Петербурга
+     «Моя компания поможет всё сделать чётко»</i>
+    </div>   
+    <img src="img/gleb.png" alt="gleb" class="gleb"> 
+  </section>
+  <section class="info-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="documents" >  
+            <ol id="accordion">
+              <li>
+                <h2><span>Перечень необходимых документов:</span></h2>   
+                <div class="item">
+                <ul>
+                  <li>Заявление о регистрации договора аренды; </li>
+                  <li>Договор аренды (субаренды) в трех экземплярах;</li>  
+                  <li>Правоустанавливающие документы (или их копии) на сдаваемое в аренду имущество. Это может быть свидетельство о праве собственности, договор аренды (для случаев, когда помещение сдают в субаренду);</li> 
+                  <li>Документы (квитанция или платежное поручение) об оплате государственной пошлины;</li> 
+                  <li>Доверенность на осуществление действий для регистрации договора аренды;</li> 
+                  <li>Кадастровый паспорт нежилого помещения, сдаваемого в аренду;</li> 
+                  <li>Акт приема-передачи объекта;</li> 
+                  <li>Согласие арендодателя (в случае сдачи объекта в субаренду, если необходимость получения такого согласия прямо предусмотрена</li> 
+                </ul>
+              </div>                    
+              </li>
+              <li>
+                <h2><span>Дополнительно для юридических лиц (предоставляется в нотариально заверенных копиях)</span></h2>
+                <div class="item">
+                <ul>
+                  <li>Заявление о регистрации договора аренды; </li>
+                  <li>Договор аренды (субаренды) в трех экземплярах;</li>  
+                  <li>Правоустанавливающие документы (или их копии) на сдаваемое в аренду имущество. Это может быть свидетельство о праве собственности, договор аренды (для случаев, когда помещение сдают в субаренду);</li> 
+                  <li>Документы (квитанция или платежное поручение) об оплате государственной пошлины;</li> 
+                  <li>Доверенность на осуществление действий для регистрации договора аренды;</li>                 
+                </ul>
+              </div>     
+              </li>
+              <li>
+                <h2><span>Для заявителей — физических лиц (нотариальные копии)</span></h2>
+                <div class="item">
+                <ul>
+                  <li>Документы (квитанция или платежное поручение) об оплате государственной пошлины;</li> 
+                  <li>Доверенность на осуществление действий для регистрации договора аренды;</li>              
+                </ul>
+              </div>   
+              </li>                                
+            </ol>                                                                     
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info">
+            <div class="item">
+              <h2>Стоимость на 30% ниже рынка</h2>
+              <p>Мы работаем без посредников и с применением современных технологий документооборота, управления затратами и умеем оптимизировать свои издержки с сохранением высокого уровня сервиса!  </p>
+            </div>
+            <div class="item">
+              <h2>Сроки от 4 дней</h2>
+              <p>Лучше всего доверить регистрацию договоров специализированной организации. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="contract">
+            <h2>Подходит ли ваш договор?</h2>
+            <span>Бесплатно проконсультируем вас в этом вопросе</span>
+            <div class="timer">
+              <h3>До конца предложения осталось</h3>            
+              <ul id="countdown" class="traflead-countdown">
+                <li>                  
+                  <span id="countdown-day" class="countdown-value"></span>   
+                  <span class="countdown-label">дней</span>             
+                </li>
+                <li>                  
+                  <span id="countdown-hour" class="countdown-value">7</span>  
+                  <span class="countdown-label">часов</span>              
+                </li>
+                <li>                  
+                  <span id="countdown-minute" class="countdown-value">21</span> 
+                  <span class="countdown-label">минут</span>               
+                </li>
+                <li>                  
+                  <span id="countdown-second" class="countdown-value">56</span>   
+                  <span class="countdown-label">секунд</span>             
+                </li>
+              </ul>
+            </div>
+            <a data-fancybox data-src="#hidden-content" href="javascript:;">Оставить заявку</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="container">
+      <div class="list">
+        <div class="title">
+          <h2>Пакет <span>«Под ключ»</span></h2>
+        </div>
+        <table>
+          <tr>
+            <td>Экспертиза  и корректировка вашего договора</td>
+            <td><span>3000 <b>c</b></span></td>
+            <td><a data-fancybox data-src="#hidden-content" href="javascript:;">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Составление нового договора</td>
+            <td><span>5000 <b>c</b></span></td>
+            <td><a data-fancybox data-src="#hidden-content" href="javascript:;">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Контроль пакета документов на подачу на гос. регистрацию</td>
+            <td><span>3000 <b>c</b></span></td>
+            <td><a data-fancybox data-src="#hidden-content" href="javascript:;">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Подача документов на гос. регистрацию и получение документов</td>
+            <td>
+              <span><small>(Спб)</small> 3000 <b>c</b></span>
+              <span><small>(Лен. обл.)</small> 7000 <b>c</b></span>
+            </td>
+            <td><a data-fancybox data-src="#hidden-content" href="javascript:;">Заказать</a></td>
+          </tr>
+        </table>
+        <a data-fancybox data-src="#hidden-content" href="javascript:;" class="order-all">Заказать весь пакет за <b>9900 <span>c</span></b></a>
+      </div>
+    </div>
+  </section>
+  <section class="additional">
+    <div class="container">
+      <h2>Дополнительные услуги</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item">
+            <span>Регистрация доп. соглашения к договору аренды</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <span>Расторжение договора аренды</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <span>Ускорение выдачи документов</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <section class="advantages">
+    <div class="container">
+      <h2>О нас и наших преимуществах</h2>
+      <div class="text">
+        <p>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание соответствующий условий активизации. Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации системы обучения кадров.</p>
+      </div>
+      <div class="row list">
+        <div class="col-md-3">          
+          <span>Квалифицированные юристы</span>
+          <p>Учтем все важные особенности конкретного договора аренды.</p>
+        </div>
+        <div class="col-md-3">
+          <span>Гарантия качественного сервиса</span>
+          <p>Мы уверены в своей компетенции и качестве услуг и берем деньги только за реально сделанную работу.</p>
+        </div>
+        <div class="col-md-3">
+          <span>Быстрая регистрация договора в госорганах</span>
+          <p>Досконально знаем все нюансы и процедуры прохождения документов.</p>
+        </div>
+        <div class="col-md-3">
+          <span>Всегда на связи! </span>
+          <p>С вами работает конкретный сотрудник, что позволит избежать хаоса и потери времени.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="clients">
+    <div class="container">
+      <h2>Наши клиенты</h2>
+      <div class="owl-carousel">
+        <div>
+          <a><img src="img/client1.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client2.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client3.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client4.jpg" alt=""></a>          
+        </div>
+        <div>
+          <a><img src="img/client5.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client6.jpg" alt=""></a>
+        </div>   
+        <div>
+          <a><img src="img/client1.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client2.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client3.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client4.jpg" alt=""></a>          
+        </div>
+        <div>
+          <a><img src="img/client5.jpg" alt=""></a>
+        </div>
+        <div>
+          <a><img src="img/client6.jpg" alt=""></a>
+        </div>        
+      </div>
+    </div>
+  </section>
+  <section class="order-call">
+    <div class="container">
+      <h2>Заказать бесплатную консультацию</h2>
+      <div class="form-box">
+        <img src="img/man.png" alt="" class="man">
+        <img src="img/phone.png" alt="" class="phone">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-6">
+            <form action="#" method="post" class="form">              
+              <input type="text" placeholder="Номер телефона">
+              <input type="text" placeholder="Ваше имя">
+              <textarea placeholder="Комментарий"></textarea>
+              <span>Будем расчитывать стоимость?</span>             
+              <input type="radio" id="c1" name="cc" />
+              <label for="c1"><span></span>Да, расчитаем</label>   
+              <input type="radio" id="c2" name="cc" />
+              <label for="c2"><span></span>Нет, не нужно</label>            
+              <a href='javascript:void(0)' class="btn">Заказать бесплатную консультацию специалиста</a>
+            </form>
+            <div class="thx-block">
+              <span>Спасибо!</span>
+              <p>Ваша заявка отправлена!</p>
+            </div>
+          </div>
+          <div class="col-md-2">            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="steps">
+    <div class="container">
+      <h2>Порядок регистрации договора аренды</h2>
+      <div class="list">
+        <div class="first-line">
+          <div class="item">            
+            <p>Заключение договора об оказании услуг</p>
+            <span>02</span>
+          </div>
+          <div class="item">            
+            <p>Составление договора аренды с учетом требований законодательства и всех пожеланий арендатора и арендодателя</p>
+            <span>04</span>
+          </div>
+          <div class="item">            
+            <p>Оформление нотариальной доверенности на представление интересов клиента в регистрирующем органе</p>
+            <span>06</span>
+          </div>
+          <div class="item">            
+            <p>Получение зарегистрированного договора аренды в положенный срок</p>
+            <span>08</span>
+          </div>
+        </div>
+        <div class="second-line">
+          <div class="item">
+            <span>01</span>
+            <p>Первичная консультация специалиста <a data-fancybox data-src="#hidden-content" href="javascript:;" class="link">Оставить заявку</a></p>                   
+          </div>
+          <div class="item">
+            <span>03</span>
+            <p>Оплата аванса</p>
+          </div>
+          <div class="item">
+            <span>05</span>
+            <p>Экспертиза всех документов по конкретному договору аренды</p>
+          </div>
+          <div class="item">
+            <span>07</span>
+            <p>Передача документов в регистрирующий орган, сопровождение их своевременного прохождения по всем инстанциям</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2>Часто задаваемые вопросы</h2>
+      <ul class="accordion" id="accordion1">     
+         <li>
+          <a href="#" class="link">Почему нужно регистрировать?</a>
+          <div class="item">
+            <p>Договора аренды, заключенные сроком более чем на 12 месяцев подлежат обязательной государственной регистрации в Федеральной регистрационной службе путем внесения записи в Единый Государственный Реестре Недвижимости. В случае отсутствия регистрации, договор признается недействительным, а сделка - ничтожной.</p>
+             
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn">Связаться с экспертом</a>
+          </div>
+          </li>      
+          <li>
+          <a href="#" class="link">Кому это нужно?</a>
+          <div class="item">
+            <p>Для предприятий и частных лиц, которые хотят гарантий сохранения аренды удобных и выгодных объектов для своей деятельности.</p>
+            <p>Для арендодателей, которые хотят долгосрочных отношений с хорошими арендаторами.</p>
+            
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn">Связаться с экспертом</a>
+          </div>
+      </li>
+         <li>
+          <a href="#" class="link">Какие договора аренды нужно регистрировать?</a>
+          <div class="item">
+             
+            <ul>
+              <li>- нежилого помещения;</li>
+              <li>- субаренды нежилого помещения;</li>
+              <li>- дополнительного соглашения к договору аренды;</li>
+              <li>- расторжения договора аренды;</li>
+              <li>- аренды квартиры;</li>
+              <li>- аренды земельного участка;</li>
+              <li>- субаренды земельного участка;</li>
+              <li>- аренды или субаренды здания / части здания;</li>
+              <li>- договора аренды магазина;</li>
+              <li>- договора аренды кафе/бара/ресторана ( предприятия общественного питания);</li>
+            </ul>
+            
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn">Связаться с экспертом</a>
+          </div>
+        </li>
+         <li>
+          <a href="#" class="link">Риски отсутствия регистрации договора аренды</a>
+          <div class="item">
+             
+            <ul>
+              <li>- Невозможность получить лицензии;</li>
+              <li>- Невозможность участия в гос.торгах/аукционах;</li>
+              <li>- Внезапное расторжение договора по инициативе арендодателя;</li>
+              <li>- Потеря денег, вложенных в ремонт помещения или обустройство земельного участка;</li>
+              <li>- Резкое и необоснованное повышение стоимости аренды объекта;</li>
+              <li>- Неожиданный пересмотр условий договора аренды до невыгодных для арендатора условий;</li>
+             
+            </ul>
+             
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn">Связаться с экспертом</a>
+          </div>
+      
+          </li>
+          <li>
+          <a href="#" class="link">Зачем еще нужно регистрировать договор аренды</a>
+          <div class="item">
+            
+            <ul>
+              <li>- Гарантия сохранения лучшей стоимости;</li>
+              <li>- Арендатор не сможет расторгнуть договор аренды без вашего согласия;</li>
+              <li>- Планирование своей деятельности на много лет вперед;</li>
+              <li>- Можно вкладывать в ремонт и обустройство, не рискуя потерять деньги в случае внезапного расторжения договора;</li>
+              <li>- Зарегистрированный договор – необходимое условие для получения практически любых лицензий;</li>
+             
+            </ul>
+             
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn">Связаться с экспертом</a>
+          </div>
+        </li><li>
+          <a href="#" class="link">Преимущества регистрации договора аренды с нашей помощью</a>
+          <div class="item">
+            <p>Квалифицированные юристы. Учтем все важные особенности конкретного договора аренды.Мы специализируемся исключительно на регистрации договоров аренды/субаренды.</p>
+            <p>Быстрая регистрация договора в госорганах. Досконально знаем все нюансы и процедуры прохождения документов.</p>
+             
+            <p>Гарантия качественного сервиса. Мы уверены в своей компетенции и качестве услуг и берем деньги только за реально сделанную работу.</p>
+            <p>Всегда на связи! С вами работает конкретный сотрудник, что позволит избежать хаоса и потери времени.</p>
+            <p>Честные сроки и цены. Никаких скрытых платежей и внезапных расходов.</p>
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn">Связаться с экспертом</a>
+          </div>  
+          </li>      
+      </div>
+    
+  </section>
+  <div class="map">
+    <div id="map"></div>
+  </div>
+  </div>
+</div> 
+  <footer>
+    <div class="container">
+      
+          <a href="#" class="logo"><img src="img/logo.png" alt="logo">Regdogovor.ru</a>
+        
+          <a href="#top" class="scroll-top scrollto"></a>
+          <div class="phone-box">
+            <span class="phone">8 (912) <b>888-22-33</b></span>
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="call">Заказать звонок</a>
+            <p>Разработка сайта — <img src="img/footer-logo.png" alt=""></p>
+          </div>
+      
+    </div>
+  </footer>
+  
+  <div style="display: none;" id="hidden-content" class="modal-call">
+    <h2>Заполните простую форму</h2>
+    <form action="#" method="post">      
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Номер телефона">
+      <textarea placeholder="Комментарий"></textarea>
+      <a data-fancybox data-src="#hidden-content1" href="javascript:;" class="btn">Оставить заявку на регистрацию договора аренды</a>
+    </form>
+  </div>
+  <div style="display: none;" id="hidden-content1" class="thx-modal">
+    <h2>Спасибо!</h2>    
+    <span>Ваша заявка отправлена!</span>
+  </div>
+
+  <script src="js/jquery-1.12.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/jquery.countdown.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/icon_customImage.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
